@@ -1,4 +1,9 @@
 
+import alan from "./assets/alan.png";
+import neil from "./assets/Neil.png";
+import brian from "./assets/brian.png";
+import frank from "./assets/frank.png";
+
 const subtext = ["Legends","Icons","Innovators","Revolutionaries"];
 
 function getRandomWord(){
@@ -8,10 +13,10 @@ function getRandomWord(){
 function Header() {
   const words = subtext[getRandomWord()];
   return ( <header>
-    <img src="src/assets/Neil.png" alt="Neil Gaiman" />
-    <img src="src/assets/brian.png" alt="Brian K. Vaughan" />
-    <img src="src/assets/alan.png" alt="Alan Moore" />
-    <img src="src/assets/frank.png" alt="Frank Miller" />
+    <img src={neil} alt="Neil Gaiman" />
+    <img src={brian}  alt="Brian K. Vaughan" />
+    <img src={alan}  alt="Alan Moore" />
+    <img src={frank}  alt="Frank Miller" />
     <h1>Graphic Novel Legends</h1>
     <p>
       {words} Of The Genre
@@ -20,7 +25,9 @@ function Header() {
   );
 }
 
+// function CoreConcept(){
 
+// }
 
 function App() {
   return (
