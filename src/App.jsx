@@ -1,4 +1,12 @@
+
+const subtext = ["Legends","Icons","Innovators","Revolutionaries"];
+
+function getRandomWord(){
+  return Math.floor(Math.random() * subtext.length);
+}
+
 function Header() {
+  const words = subtext[getRandomWord()];
   return ( <header>
     <img src="src/assets/Neil.png" alt="Neil Gaiman" />
     <img src="src/assets/brian.png" alt="Brian K. Vaughan" />
@@ -6,7 +14,7 @@ function Header() {
     <img src="src/assets/frank.png" alt="Frank Miller" />
     <h1>Graphic Novel Legends</h1>
     <p>
-      Legends of the graphi novel and comic world
+      {words} Of The Genre
     </p>
   </header>
   );
