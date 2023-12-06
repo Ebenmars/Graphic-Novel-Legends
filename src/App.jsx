@@ -1,22 +1,21 @@
 
-import alan from "./assets/alan.png";
-import neil from "./assets/Neil.png";
-import brian from "./assets/brian.png";
-import frank from "./assets/frank.png";
+import { BIOS } from "./data.js";
 
-const subtext = ["Legends","Icons","Innovators","Revolutionaries"];
+const subtext = ["Legends", "Icons", "Innovators", "Revolutionaries"];
 
-function getRandomWord(){
+function getRandomWord() {
   return Math.floor(Math.random() * subtext.length);
 }
 
+const words = subtext[getRandomWord()];
+
 function Header() {
-  const words = subtext[getRandomWord()];
-  return ( <header>
-    <img src={neil} alt="Neil Gaiman" />
-    <img src={brian}  alt="Brian K. Vaughan" />
-    <img src={alan}  alt="Alan Moore" />
-    <img src={frank}  alt="Frank Miller" />
+
+  return (<header>
+    <img src={BIOS[0].image} alt="Alan Moore" />
+    <img src={BIOS[1].image} alt="Neil Gaiman" />
+    <img src={BIOS[2].image} alt="Brian K. Vaughan" />
+    <img src={BIOS[3].image} alt="Frank Miller" />
     <h1>Graphic Novel Legends</h1>
     <p>
       {words} Of The Genre
@@ -25,16 +24,45 @@ function Header() {
   );
 }
 
-// function CoreConcept(){
-
-// }
+function Bios(props) {
+  return (
+    <li>
+      <img src={props.image} alt={props.title} />
+      <h3>{props.title}</h3>
+      <p>{props.description}</p>
+    </li>
+  );
+}
 
 function App() {
   return (
     <div>
       <Header></Header>
       <main>
-        <h2>Time to get started!</h2>
+        <section id="bios">
+          <h2>{words}</h2>
+          <ul>
+            <Bios title={BIOS[0].title}
+              description={BIOS[0].description}
+              image={BIOS[0].image}
+            ></Bios>
+            <Bios
+              title={BIOS[1].title}
+              description={BIOS[1].description}
+              image={BIOS[1].image}
+            ></Bios>
+            <Bios
+              title={BIOS[2].title}
+              description={BIOS[2].description}
+              image={BIOS[2].image}
+            ></Bios>
+            <Bios
+              title={BIOS[3].title}
+              description={BIOS[3].description}
+              image={BIOS[3].image}
+            ></Bios>
+          </ul>
+        </section>
       </main>
     </div>
   );

@@ -58,10 +58,10 @@ main {
   margin: auto;
 }
 
-#core-concepts {
+#bios {
   padding: 2rem;
   border-radius: 6px;
-  background-color: #140524;
+  background-color: rgba(149, 119, 119, 0.965);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
@@ -72,7 +72,7 @@ main h2 {
   color: #000000;
 }
 
-#core-concepts ul {
+#bios ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -82,22 +82,22 @@ main h2 {
   justify-content: center;
 }
 
-#core-concepts li {
+#bios li {
   width: 10rem;
   text-align: center;
 }
 
-#core-concepts li img {
+#bios li img {
   height: 4rem;
   width: 6rem;
   object-fit: cover;
 }
 
-#core-concepts li h3 {
+#bios li h3 {
   margin: 0.5rem 0;
 }
 
-#core-concepts li p {
+#bios li p {
   font-size: 0.9rem;
 }
 
