@@ -1,15 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Open+Sans:ital,wght@1,400&family=Orbitron&family=Oswald&display=swap');
+
 
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 1.5;
 
-  color: #ebe7ef;
-  background: radial-gradient(#280a48, #20043d);
+  color: #f3f3f3
+  
+  ;
+  background: radial-gradient(#bbc0c0, #000000);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -25,16 +28,18 @@ header {
 }
 
 header img {
-  height: 5rem;
-  width: 10rem;
+  height: 8rem;
+  width: 8rem;
   object-fit: cover;
+  margin-left:20px;
+  border-radius: 20px;
 }
 
 header h1 {
   margin: 0;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family:  "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 5rem;
-  background: linear-gradient(40deg, #ea00ff, #ea00ff, #03d5ff, #03d5ff);
+  background: linear-gradient(40deg, rgb(255, 255, 255), #ffffff, rgb(111, 31, 31), #2c2a2a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
@@ -43,8 +48,8 @@ header h1 {
 header p {
   margin: 0;
   font-size: 1.25rem;
-  color: #8964b0;
-  font-family: "Roboto Condensed", sans-serif;
+  color: #f3f3f3;
+  font-family:  "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 main {
@@ -62,9 +67,9 @@ main {
 
 main h2 {
   text-align: center;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family:  "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0 0 1.5rem 0;
-  color: #a18aba;
+  color: #000000;
 }
 
 #core-concepts ul {
