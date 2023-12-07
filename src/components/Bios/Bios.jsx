@@ -1,3 +1,4 @@
+import "./Bios.css"; 
 export default function Bios({image,title,description}) {
     return (
       <li>

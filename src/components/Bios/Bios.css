@@ -1,0 +1,47 @@
+#bios {
+    padding: 2rem;
+    border-radius: 6px;
+    background-color: rgba(149, 119, 119, 0.965);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    width: auto;
+  }
+  
+  main h2 {
+    text-align: center;
+    font-family:  "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2rem;
+    margin: 0 0 1.5rem 0;
+    color: #ffffff;
+    
+  }
+  
+  #bios ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  }
+  
+  #bios li {
+    width: 155px;
+    text-align: center;
+  }
+  
+  #bios li img {
+    height: 10rem;
+    width: 6rem;
+    object-fit: cover;
+  }
+  
+  #bios li h3 {
+    margin: 0.5rem 0;
+  }
+  
+  #bios li p {
+    font-size: 0.9rem;
+   
+  }

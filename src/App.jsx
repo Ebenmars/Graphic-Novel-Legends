@@ -1,7 +1,8 @@
 
 import { BIOS } from "./data.js";
-import Header from "./components/Header.jsx";
-import Bios from "./components/Bios.jsx";
+import Header from "./components/Header/Header.jsx";
+import Bios from "./components/Bios/Bios.jsx";
+import TabButton from "./components/TabButton.jsx";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Header></Header>
       <main>
         <section id="bios">
-          <h2>{}</h2>
+          <h2>Bios</h2>
           <ul>
             <Bios title={BIOS[0].title}
               description={BIOS[0].description}
@@ -32,9 +33,17 @@ function App() {
             ></Bios>
           </ul>
         </section>
+        <section id="works">
+          <h2>Works</h2>
+          <menu>
+            <TabButton>Alan Moore</TabButton>
+            <TabButton>Neil Gaiman</TabButton>
+            <TabButton>Brian K. Vaughan</TabButton>
+            <TabButton>Frank Miller</TabButton>
+          </menu>
+        </section>
       </main>
     </div>
   );
 }
-
 export default App;

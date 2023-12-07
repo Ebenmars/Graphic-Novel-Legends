@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Open+Sans:ital,wght@1,400&family=Orbitron&family=Oswald&display=swap');
 
-
 * {
   box-sizing: border-box;
 }
@@ -9,9 +8,7 @@ html {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 1.5;
 
-  color: #f3f3f3
-  
-  ;
+  color: #f3f3f3;
   background: radial-gradient(#bbc0c0, #000000);
 
   font-synthesis: none;
@@ -22,121 +19,50 @@ html {
   min-height: 80rem;
 }
 
-header {
-  text-align: center;
-  margin: 3rem 0;
-}
-
-header img {
-  height: 8rem;
-  width: 8rem;
-  object-fit: cover;
-  margin-left:20px;
-  border-radius: 20px;
-}
-
-header h1 {
-  margin: 0;
-  font-family:  "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 5rem;
-  background: linear-gradient(40deg, rgb(255, 255, 255), #ffffff, rgb(111, 31, 31), #2c2a2a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
-}
-
-header p {
-  margin: 0;
-  font-size: 1.25rem;
-  color: #f3f3f3;
-  font-family:  "Open Sans", "Helvetica Neue", sans-serif;
-}
 
 main {
   width: 90%;
   max-width: 50rem;
   margin: auto;
-}
-
-#bios {
-  padding: 2rem;
-  border-radius: 6px;
-  background-color: rgba(149, 119, 119, 0.965);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
-}
-
-main h2 {
-  text-align: center;
-  font-family:  "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 2rem;
-  margin: 0 0 1.5rem 0;
-  color: #000000;
   
 }
 
-#bios ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 2rem;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-#bios li {
-  width: 10rem;
-  text-align: center;
-}
-
-#bios li img {
-  height: 4rem;
-  width: 6rem;
-  object-fit: cover;
-}
-
-#bios li h3 {
-  margin: 0.5rem 0;
-}
-
-#bios li p {
-  font-size: 0.9rem;
-}
-
-#examples {
+#works {
   margin: 3rem auto;
 }
 
-#examples h2 {
+#works h2 {
   text-align: left;
+  color: #f3f3f3;
 }
 
-#examples menu {
+#works menu {
   margin: 1rem 0;
   padding: 0;
   display: flex;
   gap: 0.5rem;
   list-style: none;
+  
 }
 
-#examples menu button {
+#works menu button {
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 6px;
-  background-color: transparent;
-  color: #a18aba;
+  background-color:transparent;
+  color: #ffffff;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
 
-#examples menu button:hover {
-  background-color: #1b082f;
+#works menu button:hover {
+  background-color: #000000;
   color: #ebe7ef;
 }
 
-#examples menu button.active {
+#works menu button.active {
   background-color: #7925d3;
   color: #ebe7ef;
 }

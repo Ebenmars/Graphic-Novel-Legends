@@ -1,0 +1,29 @@
+header {
+    text-align: center;
+    margin: 3rem 0;
+  }
+  
+  header img {
+    height: 8rem;
+    width: 8rem;
+    object-fit: cover;
+    margin-left:20px;
+    border-radius: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-family:  "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 5rem;
+    background: linear-gradient(40deg, rgb(255, 255, 255), #ffffff, rgb(111, 31, 31), #2c2a2a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
+  }
+  
+  header p {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #f3f3f3;
+    font-family:  "Open Sans", "Helvetica Neue", sans-serif;
+  }
