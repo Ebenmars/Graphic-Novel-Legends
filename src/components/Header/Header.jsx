@@ -1,8 +1,8 @@
 
 import alan from "/src/assets/alan-pics/alan.png";
-import neil from "/src/assets/Neil.png";
-import brian from "/src/assets/brian.png";
-import frank from "/src/assets/frank.png";
+import neil from "/src/assets/neil-pics/Neil.png";
+import brian from "/src/assets/brian-pics/brian.png";
+import frank from "/src/assets/frank-pics/frank.png";
 import "./Header.css";
 
 const subtext = ["Legends", "Icons", "Innovators", "Revolutionaries"];
