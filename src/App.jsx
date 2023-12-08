@@ -50,6 +50,7 @@ function App() {
             <TabButton onSelected={() => handleSelected("frankWorks")}>Frank Miller</TabButton>
           </menu>
           <div id="tab-content">
+            
             <h3>{WORKS[selectedTopic].title}</h3>
             <ul>
             <img src={WORKS[selectedTopic].image0} alt="" />

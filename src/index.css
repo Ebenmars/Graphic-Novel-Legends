@@ -67,12 +67,16 @@ main {
   color: #ebe7ef;
 }
 
+
+
 #tab-content {
-  padding: 1rem;
+  padding: 15px;
+  
   border-radius: 6px;
   background-color: #000000;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 width: 750px;
+height: 400px;
   
 }
 
@@ -81,11 +85,14 @@ width: 750px;
 }
 
 #tab-content img {
-  height:175px;
+
+  margin-top: 50px;
+  height:195px;
   margin-left: 30px;
 }
 
 #tab-content ul {
+  padding-left: 0px;
  display: flex;
  justify-content: center;
  align-items: center;
