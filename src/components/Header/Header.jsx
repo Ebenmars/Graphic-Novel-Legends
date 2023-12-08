@@ -1,5 +1,5 @@
 
-import alan from "/src/assets/alan.png";
+import alan from "/src/assets/alan-pics/alan.png";
 import neil from "/src/assets/Neil.png";
 import brian from "/src/assets/brian.png";
 import frank from "/src/assets/frank.png";

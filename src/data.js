@@ -1,8 +1,12 @@
 
-import alanBook from "/src/assets/from hell.jpeg";
+import alanBook from "/src/assets/alan-pics/from hell.jpeg";
 import neilBook from "/src/assets/sandman.jpeg";
 import brianBook from "/src/assets/saga.jpg";
 import frankBook from "/src/assets/dark knight.jpeg";
+import alan0 from "/src/assets/alan-pics/watchmen.jpeg";
+import alan1 from "/src/assets/alan-pics/killing-joke.jpeg";
+import alan2 from "/src/assets/alan-pics/v-for.jpeg";
+import alan3 from "/src/assets/alan-pics/swap thing.avif";
 
 
 export const BIOS = [
@@ -31,3 +35,30 @@ export const BIOS = [
       'Frank Miller is an American comic book artist, comic book writer, and screenwriter known for his comic book stories and graphic novels such as his run on Daredevil, for which he created the character Elektra, and subsequent Daredevil: Born Again, The Dark Knight Returns, Batman: Year One, Sin City, and 30056.',
   },
 ];
+
+
+export const WORKS = {
+  alanWorks: {
+    title: 'Alan Best Works',
+    image0:alan0,
+    image1:alan1,
+    image2:alan2,
+    image3:alan3,
+  },
+  neilWorks: {
+    title: 'Neil Best Works',
+    // image1:alan1
+  
+  },
+  brianWorks: {
+    title: 'Brian Best Works',
+    // image1:alan1
+  
+  },
+
+  frankWorks: {
+    title: 'Frank Best Works',
+    // image1:alan1
+    
+  },
+};
