@@ -51,14 +51,14 @@ export const BIOS = [
 
 export const WORKS = {
   alanWorks: {
-    title: 'Alans Best Works',
+    title: 'Alan Best Works',
     image0:alan0,
     image1:alan1,
     image2:alan2,
     image3:alan3,
   },
   neilWorks: {
-    title: 'Neils Best Works',
+    title: 'Neil Best Works',
     image0:neil0,
     image1:neil1,
     image2:neil2,
@@ -66,7 +66,7 @@ export const WORKS = {
   
   },
   brianWorks: {
-    title: 'Brians Best Works',
+    title: 'Brian Best Works',
     image0:brian0,
     image1:brian1,
     image2:brian2,
@@ -75,7 +75,7 @@ export const WORKS = {
   },
 
   frankWorks: {
-    title: 'Franks Best Works',
+    title: 'Frank Best Works',
     image0:frank0,
     image1:frank1,
     image2:frank2,
